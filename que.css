@@ -1,0 +1,70 @@
+/*--
+@media only screen and (max-width: 1200px){
+
+}
+
+--------------------------------------------------
+
+
+@media only screen and (max-width: 1023px){
+
+}
+
+
+-------*/
+.arrow {
+    display: none;
+}
+.filter{
+    display: none;
+}
+
+@media only screen and (max-width: 767px){
+    .textbox {
+        display: none;
+    }
+    .line{
+        display: none;
+    }
+    .card{
+        width: 100%;
+        background-position: center;
+    }
+    .navbar-toggler{
+        display: none;
+
+    }
+    .arrow {
+        display: inline;
+    }
+    .filter{
+        display: inline;
+    }
+
+
+}
+
+
+
+
+@media only screen and (max-width: 480px){
+    .card{
+        width: 100%;
+        background-position: center;
+    }
+    .textbox{
+        display: none;
+    }
+    .line{
+        display: none;
+    }
+    .arrow {
+        display: inline;
+    }
+    .filter{
+        display: inline;
+    }
+
+
+
+}
